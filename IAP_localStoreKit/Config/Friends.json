@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "Monica",
+        "name": "Monica Geller",
+        "productID": "fr.consulting.myjobly.IAP-localStoreKit.monica"
+    },
+    {
+        "id": 2,
+        "image": "Ross",
+        "name": "Ross Geller",
+        "productID": "fr.consulting.myjobly.IAP-localStoreKit.ross"
+    },
+    {
+        "id": 3,
+        "image": "Rachel",
+        "name": "Rachel Green",
+        "productID": "fr.consulting.myjobly.IAP-localStoreKit.rachel"
+    },
+    {
+        "id": 4,
+        "image": "Joey",
+        "name": "Joey Tribiani",
+        "productID": "fr.consulting.myjobly.IAP-localStoreKit.joey"
+    },
+    {
+        "id": 5,
+        "image": "Chandler",
+        "name": "Chandler Bing",
+        "productID": "fr.consulting.myjobly.IAP-localStoreKit.chandler"
+    }
+]
