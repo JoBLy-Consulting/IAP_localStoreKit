@@ -24,9 +24,10 @@ struct CharacterView: View {
                 .font(.headline)
             
             Spacer()
-            
-            Image(systemName: "lock.fill")
+            if !_friend.isPurchased {
+                Image(systemName: "lock.fill")
                 .padding(.trailing, 10)
+            }
             
         }
         .padding(8)

@@ -15,6 +15,8 @@
 		E6133B73275D6E20007862E8 /* FriendCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6133B72275D6E20007862E8 /* FriendCharacter.swift */; };
 		E6133B75275D6E8D007862E8 /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6133B74275D6E8D007862E8 /* FriendManager.swift */; };
 		E6133B77275D6FEA007862E8 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6133B76275D6FEA007862E8 /* CharacterView.swift */; };
+		E6F5ED3F275E00A200CB7CE8 /* IAP_ProductsID.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6F5ED3E275E00A200CB7CE8 /* IAP_ProductsID.plist */; };
+		E6F5ED41275E014300CB7CE8 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F5ED40275E014300CB7CE8 /* IAPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,9 @@
 		E6133B72275D6E20007862E8 /* FriendCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCharacter.swift; sourceTree = "<group>"; };
 		E6133B74275D6E8D007862E8 /* FriendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
 		E6133B76275D6FEA007862E8 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		E6F5ED3C275DFC3F00CB7CE8 /* localStoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = localStoreKitConfiguration.storekit; sourceTree = "<group>"; };
+		E6F5ED3E275E00A200CB7CE8 /* IAP_ProductsID.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IAP_ProductsID.plist; sourceTree = "<group>"; };
+		E6F5ED40275E014300CB7CE8 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		E6133B5B275D6B91007862E8 /* IAP_localStoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				E6F5ED3D275E006000CB7CE8 /* IAPManager */,
 				E6133B6D275D6C1F007862E8 /* Config */,
 				E6133B6C275D6BDF007862E8 /* Controllers */,
 				E6133B6B275D6BD6007862E8 /* Views */,
@@ -66,6 +72,7 @@
 				E6133B5C275D6B91007862E8 /* IAP_localStoreKitApp.swift */,
 				E6133B60275D6B94007862E8 /* Assets.xcassets */,
 				E6133B62275D6B94007862E8 /* Preview Content */,
+				E6F5ED3C275DFC3F00CB7CE8 /* localStoreKitConfiguration.storekit */,
 			);
 			path = IAP_localStoreKit;
 			sourceTree = "<group>";
@@ -109,6 +116,15 @@
 				E6133B70275D6DD5007862E8 /* Friends.json */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		E6F5ED3D275E006000CB7CE8 /* IAPManager */ = {
+			isa = PBXGroup;
+			children = (
+				E6F5ED3E275E00A200CB7CE8 /* IAP_ProductsID.plist */,
+				E6F5ED40275E014300CB7CE8 /* IAPManager.swift */,
+			);
+			path = IAPManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F5ED3F275E00A200CB7CE8 /* IAP_ProductsID.plist in Resources */,
 				E6133B64275D6B94007862E8 /* Preview Assets.xcassets in Resources */,
 				E6133B71275D6DD5007862E8 /* Friends.json in Resources */,
 				E6133B61275D6B94007862E8 /* Assets.xcassets in Resources */,
@@ -182,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F5ED41275E014300CB7CE8 /* IAPManager.swift in Sources */,
 				E6133B5F275D6B91007862E8 /* ContentView.swift in Sources */,
 				E6133B75275D6E8D007862E8 /* FriendManager.swift in Sources */,
 				E6133B77275D6FEA007862E8 /* CharacterView.swift in Sources */,

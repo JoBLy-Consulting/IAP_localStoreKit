@@ -1,0 +1,63 @@
+{
+  "identifier" : "93118129",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "10",
+      "familyShareable" : false,
+      "internalID" : "C0671053",
+      "localizations" : [
+        {
+          "description" : "La soeur de Ross",
+          "displayName" : "Monica Geller",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "fr.consulting.myjobly.IAP-localStoreKit.monica",
+      "referenceName" : "Monica",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "10",
+      "familyShareable" : false,
+      "internalID" : "3F92C377",
+      "localizations" : [
+        {
+          "description" : "La meilleure amie de Monica",
+          "displayName" : "Rachel Green",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "fr.consulting.myjobly.IAP-localStoreKit.rachel",
+      "referenceName" : "Rachel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "CF50D869",
+      "localizations" : [
+        {
+          "description" : "Le frère de Monica",
+          "displayName" : "Ross Geller",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "fr.consulting.myjobly.IAP-localStoreKit.ross",
+      "referenceName" : "Ross",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
