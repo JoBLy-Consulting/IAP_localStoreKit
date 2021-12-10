@@ -40,9 +40,9 @@ struct ContentView: View {
                     }
                 }), secondaryButton:.cancel())
             })
-            .alert(isPresented: $transactionFailed) {
-                Alert(title: Text("Votre achat n'a pas pu aboutir"))
-            }
+        }
+        .alert(isPresented: $transactionFailed) {
+            Alert(title: Text("Votre achat n'a pas pu aboutir"))
         }
     }
 }
